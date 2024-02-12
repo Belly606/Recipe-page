@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+	<link rel="stylesheet" href="style/output.css">
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="md:bg-Eggshell font-outfit"></body>
+	<div class="container md:w-2/4  md:bg-white md:mx-auto md:mt-4 md:rounded-2xl md:p-6">
+		<!-- Start Header -->
+		<header>
+			<div class="overflow-hidden md:rounded-xl">
+				<img class="bg-cover" src="assets/images/image-omelette.jpeg" alt="">
+			</div>
+			<div class="m-6">
+				<h1 class=" font-bold font-young my-6 text-3xl">Simple Omelette Recipe
+				</h1>
+				<p class="my-6 text-gray-500 text-base">
+					An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+					to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+				</p>
+			</div>
+		</header>
+		<!-- Start Preparation Time -->
+		<div class="bg-dark-raspberry-50 bg-opacity-20 m-6 p-4 rounded-lg">
+			<p class="font-bold text-dark-raspberry-700 mb-4">Preparation time<p/>
+			<ul class="ml-4 text-dark-raspberry-700">
+				<li class="mx-10 mb-4"><p class="text-gray-600 list-dot"><span>Total:</span> Approximately 10 minutes</p></li>
+				<li class="mx-10 mb-4"><p class="text-gray-600 list-dot"><span>Preparation:</span> 5 minutes</p></li>
+				<li class="mx-10"><p class="text-gray-600 list-dot"><span>Cooking:</span> 5 minutes</p></li>
+			</ul>
+		</div>
+		<!-- Start Ingredients -->
+		<div class="m-6">
+			<h2 class="text-wenge-brown-400 font-young text-3xl mb-6">
+				Ingredients
+			</h2>
+			<ul class="font-semibold">
+				<li class="mx-6 mb-4"><p class="text-gray-600 list-dot before:-left-6">2-3 large eggs</p></li>
+				<li class="mx-6 mb-4"><p class="text-gray-600 list-dot before:-left-6">Salt, to taste</p></li>
+				<li class="mx-6 mb-4"><p class="text-gray-600 list-dot before:-left-6">Pepper, to taste</p></li>
+				<li class="mx-6 mb-4"><p class="text-gray-600 list-dot before:-left-6">1 tablespoon of butter or oil</p></li>
+				<li class="mx-6 mb-4">
+					<p class="text-gray-600 list-dot before:-left-6">
+						Optional fillings: cheese, diced vegetables, cooked meats, herbs
+					</p>
+				</li>
+			</ul>
+		</div>
+		<hr class="w-10/12 mx-auto">
+		<!-- Start Instructions -->
+		<div class="m-6">
+			<h2 class="text-wenge-brown-400 font-young text-3xl mb-6">
+				Instructions
+			</h2>
+				<ol class="list-decimal">
+					<li class="mb-4 mx-6 marker:font-bold marker:font-outfit marker:text-dark-raspberry-600 marker:text-base">
+						<p class="text-gray-600 ml-4">
+							<span>Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+							You can add a tablespoon of water or milk for a fluffier texture.
+						</p>
+					</li>
+					<li class="mb-4 mx-6 marker:font-bold marker:font-sans marker:text-dark-raspberry-600 marker:text-base">
+						<p class="text-gray-600 ml-4"><span>Heat the pan:</span> Place a non-stick frying pan over medium heat and add butter or oil.</p>
+					</li>
+					<li class="mb-4 mx-6 marker:font-bold marker:font-sans marker:text-dark-raspberry-600 marker:text-base">
+						<p class="text-gray-600 ml-4">
+							<span>Cook the omelette:</span> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+							the eggs evenly coat the surface.
+						</p>
+					</li>
+					<li class="mb-4 mx-6 marker:font-bold marker:font-sans marker:text-dark-raspberry-600 marker:text-base">
+						<p class="text-gray-600 ml-4">
+							<span>Add fillings (optional):</span> When the eggs begin to set at the edges but are still slightly runny in the 
+							middle, sprinkle your chosen fillings over one half of the omelette.
+						</p>
+					</li>
+					<li class="mb-4 mx-6 marker:font-bold marker:font-sans marker:text-dark-raspberry-600 marker:text-base">
+						<p class="text-gray-600 ml-4">
+							<span>Fold and serve:</span> As the omelette continues to cook, carefully lift one edge and fold it over the 
+							fillings. Let it cook for another minute, then slide it onto a plate.
+						</p>
+					</li>
+					<li class="mx-6 marker:font-bold marker:font-sans marker:text-dark-raspberry-600 marker:text-base">
+						<p class="text-gray-600 ml-4"><span>Enjoy:</span> Serve hot, with additional salt and pepper if needed.</p>
+					</li>
+				</ol>
+		</div>
+		<hr class="w-10/12 mx-auto">
+		<!-- Start Nutrition -->
+		<div class="m-6">
+			<h2 class="text-wenge-brown-400 font-young text-3xl mb-6">Nutrition</h2>
+			<p class="text-gray-600">The table below shows nutritional values per serving without the additional fillings.</p>
+			<div class="mt-4 grid grid-cols-2">
+				<span class="text-gray-400 font-bold ml-6">Calories</span>
+				<span class="text-dark-raspberry-600 font-bold">277kcal</span>
+				<hr class="col-span-2 my-2">
+				<span class="text-gray-400 font-bold ml-6">Carbs</span>
+				<span class="text-dark-raspberry-600 font-bold">0g</span>
+				<hr class="col-span-2 my-2">
+				<span class="text-gray-400 font-bold ml-6">Protein</span>
+				<span class="text-dark-raspberry-600 font-bold">20g</span>
+				<hr class="col-span-2 my-2">
+				<span class="text-gray-400 font-bold ml-6">Fat</span>
+				<span class="text-dark-raspberry-600 font-bold">22g</span>
+			</div>
+		</div>
+	</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/home">Belly</a>.
+  </div>
+</body>
+</html>

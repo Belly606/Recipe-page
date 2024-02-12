@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .list-dot {
+    @apply before:content-[''] before:w-2 before:h-2 before:rounded-full before:bg-dark-raspberry-700 before:absolute before:top-1/2 before:-translate-y-1/2 before:-left-10 relative;
+  }
+  li > p > span {
+    @apply font-bold;
+  }
+}
